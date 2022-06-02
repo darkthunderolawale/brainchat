@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width:900px) {
+  .chat2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+    .chat2 h1{
+        font-size: 7vw;
+      }
+      .chat2-1{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        padding: 20px 0;
+      } 
+      .chat2-1 img{
+        width: 14%;
+      }
+      .head{
+        padding: 10px 0px 10px 20px;
+        width: 100%;
+        background: linear-gradient(90.15deg, #BAC9F0 -85.86%, #FFFFFF 79.1%);
+      }
+      .head h5{
+        color: #012789;
+        font-size: 3.8vw;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      .head p{
+        color: #88A2E5;
+        font-size: 3.7vw;
+        width: 90%;
+        /* max-width:58%; */
+    
+      }
+      /* @media (max-width:1000px) {
+        .head p{
+          color: #88A2E5;
+          font-size: 11px;
+          max-width:90%;
+      
+        }
+      } */
+      
+      .date{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+      }
+      .date h5{
+        font-size: 3.8vw;
+      }
+      .messages{
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%; */
+        padding: 0px 10px 10px 10px ;
+        
+        }
+      .first-messages{
+        
+        color: #595959;
+        margin-bottom: 10px;
+    
+    
+      }
+      .first-messages-img{
+        float: left;
+        margin-left: 10px;
+        
+      }
+      .first-messages-img img{
+        width: 7vw;
+
+        
+      }
+      .texts{
+        display: inline-block;
+        padding: 0 0 0 5px;
+        vertical-align: top;
+      
+    
+      }
+      .texts p{
+        margin-bottom: 10px;
+      }
+      .texts p{
+        background: rgba(196, 196, 196, 0.15);
+        padding: 7px;
+        border-radius: 16px;
+        font-size: 3.8vw;
+        width: fit-content;
+      }
+     
+      .texts2 p{
+        width: 98%;
+        background: #002FA8;
+        border-radius: 16px;
+        padding: 5px 2.5em 7px 20px;
+        color: white;
+        font-size: 3.7vw;
+        line-height: 6.4vw;
+      }
+      .texts2 {
+        float: left;
+        width: 80%;
+        margin-left: 12%;
+        margin-bottom: 20px;
+      }
+      .second-messages-img {
+        float: right;
+    
+      }
+      .second-messages-img img{
+        width: 7vw;
+        
+      }
+     
+     .bottom{
+       /* margin-top: 50px; */
+       margin-bottom: 10px;
+       display: flex;
+       width: 90%;
+       position: fixed;
+       bottom: 0;
+      
+     }
+     .bottom img{
+       width: 5%;
+       padding-bottom: 10px;
+     }
+    
+    
+    
+     .group{
+      /* border: 1px solid grey;
+      border-radius: 10px;
+      background-color: white; */
+      padding-left: 10px;
+      border: none;
+      width: 100%;
+      margin-bottom: 5px;
+      }
+     
+      form.group input[type=text] {
+        padding: 14px 10px;
+        font-size: 3.8vw;
+        float: left;
+        font-weight: 900;
+        width: 90%;
+        /* background: #f1f1f1; */
+        border-radius: 10px 10px 10px 10px;
+        border-color:none;
+        outline: none;
+        opacity: 1;
+        border: 1px solid grey;
+    
+      }
+      /* @media (max-width:900px) {
+        form.group input[type=text]{
+          width: 87%;
+        }
+        
+      } */
+      form.example input[type=text]:hover{
+          border: none;
+      }
+      
+      form.group button {
+        float: right;
+        padding: 8px 0 8px 5px;
+        font-size: 5.5vw;
+        border: 0px solid white;
+        background-color: white;
+        border-left: none;
+        cursor: pointer;
+        color: blue;
+        text-align: end;
+      
+        border-radius: 0px 10px 10px 0px;
+    
+      }
+      
+      form.group button:hover {
+        font-size: 6.5vw;
+      }
+      
+      form::after {
+        content: "";
+        clear: both;
+        display: table;
+        
+      } 
+      
+}
